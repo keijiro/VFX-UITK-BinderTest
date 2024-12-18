@@ -252,8 +252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Property:
     m_Name: Throttle
-  Target: {fileID: 231048556}
-  ElementName: slider
+  Target:
+    Component: {fileID: 231048556}
+    ElementName: slider
 --- !u!114 &85176432
 MonoBehaviour:
   m_ObjectHideFlags: 0
