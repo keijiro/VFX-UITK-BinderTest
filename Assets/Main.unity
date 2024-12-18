@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 85176432}
   - component: {fileID: 85176431}
   m_Layer: 0
-  m_Name: Particles
+  m_Name: Particles (slider)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +203,7 @@ VisualEffect:
       - m_Value: 0.5
         m_Name: Throttle
         m_Overridden: 1
-      - m_Value: 0.5
+      - m_Value: 0
         m_Name: FloatThrottle
         m_Overridden: 1
     m_Vector2f:
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 935722311}
   - component: {fileID: 935722310}
   m_Layer: 0
-  m_Name: Particles (1)
+  m_Name: Particles (toggle)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

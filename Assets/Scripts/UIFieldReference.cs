@@ -12,6 +12,9 @@ public sealed class UIFieldReference<T>
 
     public void ClearReference() => _cached = null;
 
+    public override string ToString()
+      => $"{Component?.name ?? "(null)"}:{ElementName}";
+
     BaseField<T> GetField()
     {
         if (_cached == null)
